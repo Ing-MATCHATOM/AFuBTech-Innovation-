@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Équipe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ajoutez l'icône Font Awesome pour la croix de fermeture -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation + logo -->
+    <header>
+        <nav class="navbar">
+            <div class="brand-container">
+                <div class="logo-container">
+                    <div class="image-wrapper">
+                        <img src="logo.jpg" alt="Logo AFuBTech Innovation" class="zoomable-image logo">
+                    </div>
+                </div>
+                <div class="brand-name">
+                    <h1>AFuBTech Innovation</h1>
+                    <p class="tagline">Solutions technologiques avant-gardistes</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="accueil.html" class="active">Accueil</a></li>
+                <li><a href="#">Membres</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section des membres -->
+    <main>
+        <h1>Notre Équipe</h1>
+        <div class="cards-container">
+            <!-- Chaque image est maintenant dans un wrapper cliquable -->
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="membre1.jpg" alt="Membre 1" class="zoomable-image">
+                </div>
+                <h2>Membre 1</h2>
+                <p>Biographie courte du membre 1.</p>
+            </div>
+            <!-- Répétez pour les autres membres -->
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="membre2.jpg" alt="Membre 2" class="zoomable-image">
+                </div>
+                <h2>Membre 2</h2>
+                <p>Biographie courte du membre 2.</p>
+            </div>
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="membre3.jpg" alt="Membre 3" class="zoomable-image">
+                </div>
+                <h2>Membre 3</h2>
+                <p>Biographie courte du membre 3.</p>
+            </div>
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="membre4.jpg" alt="Membre 4" class="zoomable-image">
+                </div>
+                <h2>Membre 4</h2>
+                <p>Biographie courte du membre 4.</p>
+            </div>
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="membre5.jpg" alt="Membre 5" class="zoomable-image">
+                </div>
+                <h2>Membre 5</h2>
+                <p>Biographie courte du membre 5.</p>
+            </div>
+            <div class="card">
+                <div class="image-wrapper">
+                    <img src="membre6.jpg" alt="Membre 6" class="zoomable-image">
+                </div>
+                <h2>Membre 6</h2>
+                <p>Biographie courte du membre 6.</p>
+            </div>
+        </div>
+
+        <!-- Lightbox (modal) qui apparaît au clic -->
+        <div class="lightbox" id="lightbox">
+            <span class="close-btn" id="close-btn"><i class="fas fa-times"></i></span>
+            <img class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>AFuBTech Innovation</h3>
+                <p>Innover • Construire • Avancer</p>
+            </div>
+            <!-- Autres éléments du footer -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Notre Entreprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation + logo -->
+    <header>
+        <nav class="navbar">
+            <div class="brand-container">
+                <div class="logo-container">
+                    <div class="image-wrapper">
+                        <img src="logo.jpg" alt="Logo AFuBTech Innovation" class="zoomable-image logo">
+                    </div>
+                </div>
+                <div class="brand-name">
+                    <h1>AFuBTech Innovation</h1>
+                    <p class="tagline">Solutions technologiques avant-gardistes</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="membre.html">Membres</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <!-- Sidebar à gauche -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>Nos Services</h3>
+                <ul class="sidebar-links">
+                    <li><a href="#"><i class="fas fa-cog"></i> Conseil stratégique</a></li>
+                    <li><a href="#"><i class="fas fa-laptop-code"></i> Développement web</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Analyse de données</a></li>
+                    <li><a href="#"><i class="fas fa-bullhorn"></i> Marketing digital</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Projets Récents</h3>
+                <div class="project-card">
+                    <img src="projet1.jpg" alt="Projet 1" class="zoomable-image">
+                    <h4>Domowatt</h4>
+                    <p>Système de gestion d'une maison</p>
+                    <a href="#">Voir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="projet2-thumb.jpg" alt="Projet 2" >
+                    <h4>Application Mobile</h4>
+                    <p>Solution de gestion de tâches</p>
+                    <a href="#">Voir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="sidebar-cta">
+                <h4>Newsletter</h4>
+                <p>Abonnez-vous à nos actualités</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre email">
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+        </aside>
+
+        <!-- Contenu principal -->
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Bienvenue chez <span>AFuBTech Innovation</span></h2>
+                    <p>Votre partenaire en solutions technologiques innovantes depuis 2023</p>
+                    <a href="#" class="cta-button">Découvrez notre approche</a>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Stratégie</h3>
+                    <p>Approche sur mesure pour chaque client</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Innovation</h3>
+                    <p>Technologies de pointe au service de vos projets</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Partage</h3>
+                    <p>Collaboration transparente à chaque étape</p>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <h2>Ce que disent nos clients</h2>
+                <div class="testimonial-card">
+                    <img src="client.png" alt="Client 1">
+                    <blockquote>"Une équipe professionnelle qui a su comprendre nos besoins."</blockquote>
+                    <cite>- Marie Dupont, CEO CompanyX</cite>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="close-btn"><i class="fas fa-times"></i></span>
+        <img class="lightbox-image" id="lightbox-image">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>AFuBTech Innovation</h3>
+                <p>Innover • Construire • Avancer</p>
+            </div>
+            <!-- Autres éléments du footer -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
